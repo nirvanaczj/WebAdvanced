@@ -1,1 +1,9 @@
 h1{color:red;}
+
+.patternUnit{
+	display:inline-block;
+	width: 30px;
+	background-color:rgb(255,0,0);
+	height:20px;
+	margin-right:10px;
+}

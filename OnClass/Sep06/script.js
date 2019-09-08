@@ -76,7 +76,7 @@ var mySecondValue = 5;
 2 !== 3 //true
 
 **/
-
+/**
 	var myFirstValue = 5;
 	var mySecondValue = 4;
 
@@ -116,3 +116,36 @@ console.log("firstIteration:",iteration);
 
 iteration ++;
 console.log("secondIteration:😪",iteration)
+
+
+var i
+
+i = i + 1;
+
+/*for (var i = 0; i < 1000; i++) {
+ console.log(i)
+}*/
+/*
+var Things = [1,[1],4,false,'e1',[12.12,1]]
+
+for (var i = 0; i < Things.length; i++){
+ console.log(Array.isArray(Things[i]))
+}
+*/
+
+//get our element by its html id
+var myWrapper = document.getElementById('wrapper');
+console.log(myWrapper.innerHTML)
+
+// += is how we add text to the existing text
+/*myWrapper.innerHTML += 'string';
+*/
+/*
+
+; transform: rotate('+(10+i)+'deg);*/
+//for loop runs 100 times to add 'string' in HTML.	
+for (var i = 0;i < 50; i++){
+	/*myWrapper.innerHTML += '<h1> style="font-size:' + 15 + i + 'px;">1</h1>;*/
+	myWrapper.innerHTML += '<div class="patternUnit" style="background-color: rgb('+255 -z i +','+(5*i)+',0)"></div>';
+}
+
