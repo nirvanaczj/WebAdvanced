@@ -146,6 +146,6 @@ console.log(myWrapper.innerHTML)
 //for loop runs 100 times to add 'string' in HTML.	
 for (var i = 0;i < 50; i++){
 	/*myWrapper.innerHTML += '<h1> style="font-size:' + 15 + i + 'px;">1</h1>;*/
-	myWrapper.innerHTML += '<div class="patternUnit" style="background-color: rgb('+255 -z i +','+(5*i)+',0)"></div>';
+	myWrapper.innerHTML += '<div class="patternUnit" style="background-color: rgb('+255 + i +','+(5*i)+',0)"></div>';
 }
 
